@@ -1,0 +1,59 @@
+body {
+    
+   background-color: rgb(39, 0, 0); /* For browsers that do not support gradients */
+   font-size: 30px;
+}
+
+    /*rgb colors are red, green, blue, and each value can be 1-255. 0,0,0 is black
+    
+    RGB(A) the A stands for alpha; or opacity
+    
+    avoid using transparency and hex codes, in older browsers it can cause problems*/
+p{
+    background-color: rgb(186, 12, 255);
+   /*  color: cornflowerblue; */
+    border: dotted 10px rgb(75, 0, 0);
+    text-align:center;
+    padding: 20px 50px 80px 100px;
+    margin: 50px;
+}
+/*padding is for internal spacing*/
+/* margin is for external spacing*/
+
+/* BORDER PADDING
+1 value: all sides
+2 values: 1st value = top/bottom, 2nd = left/right
+4 values: first = top, 2nd= right, 3rd=bottom, and 4th= right (they move around the text clockwise applying the style)
+*/
+
+   /*  width: 400px; */
+
+/*
+cmd +/ or control + /
+option + shift + a for alternative
+comment shortcut
+*/
+/* organizing CSS should start with the most general and then move down to more specific*/
+
+h1 {
+    /* font-size:60px; */
+}
+/* #special { */
+.special {
+        background-color: rgb(0, 0, 0);
+        color: aqua;
+        border-radius: 100%;
+        /*border radius is how you can get rounded elements on the page, 30 px will round things, 100% will make a perfect circle depending on the padding*/
+}
+
+.centered-text {
+    text-align: center;
+    padding: 20px;
+}
+/* to select or target an id, use a hashtag. id's should only exist one time on a single document. An element can only have one id */
+
+moving-element {
+  position: absolute;
+  backdrop-filter: blur(100%);
+  background-color: rgba(255, 5, 5, 0.5); /* Semi-transparent */
+}
