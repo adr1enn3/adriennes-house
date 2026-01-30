@@ -1,9 +1,7 @@
- body {
-     background-color: rgba(76, 53, 252, 0.816);
-     font-size: 30px;
-     font-family: 'bonbon', sans-serif;
+body{body { background-color: rgba(76, 53, 252, 0.816);
     background-image: linear-gradient(90deg, rgb(117, 14, 243), rgb(38, 79, 118));}
-h1 {   
+    h1 {
+      
   color: rgb(131, 145, 239);
   text-shadow: 1px 1px 2px rgb(36, 120, 223), 0 0 25px blue, 0 0 5px darkblue;
-}
+}}
