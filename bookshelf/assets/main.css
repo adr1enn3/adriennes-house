@@ -1,0 +1,47 @@
+body{
+    background: rgb(102, 0, 255);
+    padding: 30px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 100px;
+  background-color: transparent;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+  perspective: 1000px;
+}
+
+.book{
+  background: transparent;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.book img{
+  width: 100%;
+  height: auto;
+  box-shadow: 0px 15px 25px rgba(231, 0, 0, 0.5);
+  transform-style: preserve-3d; /* needed for 3D flip */
+  transition: transform 0.8s ease, box-shadow 0.4s ease;
+}
+.book-title{
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 1.4;
+  color: rgb(254, 0, 237);
+}
+
+.book:hover {
+  transform: scale(1.1) skewY(-5deg) skewX(3deg); /* zoom in while keeping tilt */
+  box-shadow: 0px 25px 35px rgba(231, 0, 0, 0.7); /* stronger shadow on hover */
+}
+
+
