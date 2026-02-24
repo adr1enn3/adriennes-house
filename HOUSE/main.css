@@ -117,6 +117,15 @@ body {
   left: 66%; transform: translateX(-50%);
   top: 56%; 
   z-index: 4;
+  display: flex;
+  justify-content: center;  /* horizontal */
+  align-items: center;  
+}
+
+.door-link {
+  color: rgb(68, 0, 255);      /* or whatever fits your palette */
+  text-decoration: underline;
+  font-size: 14px;
 }
 
 .window-grid {
