@@ -1,0 +1,33 @@
+
+
+*{
+    box-sizing: border-box;
+}
+
+.box{
+background-color: lightgray;
+width: 200px;
+height: 200px;
+animation-name: test;
+animation-duration: 4\s;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: cubic-bezier(.17,.67,.88,-0.37);
+/* animation-iteration-count: 3; */
+/* https://www.w3schools.com/css/css3_animations_timing.asp , https://cubic-bezier.com/#.17,.67,.88,-0.37*/
+/* animation default is ease */
+
+}
+
+@keyframes test {
+ 0% {
+        background-color: red;
+        height: 200px;
+ }
+ 100% {
+        background-color: yellow;
+        height: 400px;
+ }
+
+}
+  <!-- Use percentages for key frame -->
